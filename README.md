@@ -12,7 +12,7 @@
 ```
 6. Configure the project
 ```
-> cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_DEBUG_POSTFIX=d
+> cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_DEBUG_POSTFIX=d -DLIB_TYPE=sqlcipher
 ```
 7. Build debug and release
 ```
